@@ -1,0 +1,30 @@
+.container {
+  width: 80%; 
+  margin: 0 auto; 
+  padding: 20px; 
+  
+  
+}
+#table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#table th, #table td {
+  padding: 10px;
+  
+  
+}
+.button-container {
+  text-align: center; 
+  margin-top: 20px; 
+}
+.button-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.result {
+  border: 3px solid black;
+  display: flex;
+  margin: 0 auto;
+}

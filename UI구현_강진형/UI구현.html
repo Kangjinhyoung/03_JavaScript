@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI구현_강진형</title>
+  <link rel="stylesheet" href="UI구현.css">
+</head>
+<body>
+  <h1 style="text-align: center;">UI구현_강진형</h1>
+  <hr>
+  <div class="container">
+    <table id="table">
+      <tr id="table1">
+        <th>너비 : </th>
+        <td><input type="text" class="userWidth" size="6">px</td>
+        <th>높이 :</th>
+        <td><input type="text" class="userHeight" size="6">px</td>
+      </tr>
+      <tr class="table2">
+        <th>글자크기 : </th>
+        <td><input type="text" class="userFontSize" size="4">px</td>
+        <th>굵기 : </th>
+        <td>
+          보통<input type="radio" name="weight-btn" value="normal" >
+          굵게<input type="radio" name="weight-btn" value="bold" >
+        </td>
+      </tr>
+      <tr class="table3">
+        <th>글자색 : </th>
+        <td><input type="text" class="userColor"></td>
+        <th>배경색 : </th>
+        <td><input type="text" class="userBgColor"></td>
+      </tr>
+      <tr class="table4">
+        <th>가로정렬 : </th>
+        <td colspan="3"> 
+          왼쪽  <input type="radio" name="direction-btn" value="flex-start">
+          가운데<input type="radio" name="direction-btn" value="center">
+          오른쪽<input type="radio" name="direction-btn" value="flex-end">
+        </td>
+      </tr>
+      <tr class="table5">
+        <th>세로정렬 : </th>
+        <td colspan="3">
+          위    <input type="radio" name="vertical-btn" value="flex-start">
+          가운데<input type="radio" name="vertical-btn" value="center">
+          아래  <input type="radio" name="vertical-btn" value="flex-end">
+        </td>
+      </tr>
+      <tr class="table6">
+        <th>출력 문자열 : </th>
+        <td colspan="3"><input type="text" class="userText" size="65"></td>
+      </tr>
+    </table>
+    <div class="button-container">
+      <button id="changeButton">적용하기</button>
+    </div>
+  </div>
+  <div class="result" id="result-container"></div>
+  <script src="UI구현.js"></script>
+</body>
+</html>
